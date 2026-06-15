@@ -1,0 +1,27 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/tick-core",
+    "crates/merkle",
+    "crates/runtime",
+    "games/arena",
+    "programs/arena-program",
+    "programs/interp-bench",
+    "programs/referee",
+    "programs/root-bench",
+    "programs/wager",
+    "tools/arena-viewer",
+    "tools/devnet-dispute",
+    "tools/devnet-match",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/nzengi/tickpruv"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1

@@ -1,0 +1,18 @@
+[package]
+name = "referee"
+description = "On-chain dispute referee: checkpoints, bisection, native single-tick replay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+# for crates that read Session as a library and link their own entrypoint
+no-entrypoint = []
+
+[dependencies]
+solana-program = "3.0.0"
+tick-merkle = { path = "../../crates/merkle" }
