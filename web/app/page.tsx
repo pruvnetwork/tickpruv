@@ -421,7 +421,7 @@ export default function HomePage() {
 
   const copyQuickStart = () => {
     const commands = [
-      'git clone https://github.com/nzengi/tickpruv && cd tickpruv',
+      'git clone https://github.com/pruvnetwork/tickpruv && cd tickpruv',
       'cargo test -p arena --release',
       'cargo run -p arena-viewer',
     ].join('\n');
@@ -444,7 +444,7 @@ export default function HomePage() {
           <nav className="header-nav">
             <Link href="/docs" className="header-nav-paper">Docs</Link>
             <a href="#" className="header-nav-console" onClick={e => { e.preventDefault(); openModal('console'); }}>Console</a>
-            <a href="https://github.com/nzengi/tickpruv" target="_blank" rel="noopener" aria-label="GitHub" style={{display:'flex',alignItems:'center'}}><GithubIcon /></a>
+            <a href="https://github.com/pruvnetwork/tickpruv" target="_blank" rel="noopener" aria-label="GitHub" style={{display:'flex',alignItems:'center'}}><GithubIcon /></a>
             <a href="https://x.com/pruvfun" target="_blank" rel="noopener" aria-label="X" style={{display:'flex',alignItems:'center'}}><XIcon /></a>
           </nav>
         </div>
@@ -479,7 +479,7 @@ export default function HomePage() {
                     <span className="material-symbols-outlined" style={{fontSize:'18px'}}>description</span>
                     Docs
                   </Link>
-                  <a href="https://github.com/nzengi/tickpruv" target="_blank" rel="noopener" className="btn-secondary">
+                  <a href="https://github.com/pruvnetwork/tickpruv" target="_blank" rel="noopener" className="btn-secondary">
                     <GithubIcon />
                     View source
                   </a>
@@ -595,7 +595,7 @@ export default function HomePage() {
               </div>
               <div className="qs-body">
                 <div className="qs-line qs-comment"># clone &amp; build</div>
-                <div className="qs-line"><span className="qs-prompt">$</span><span className="qs-cmd">git clone https://github.com/nzengi/tickpruv &amp;&amp; cd tickpruv</span></div>
+                <div className="qs-line"><span className="qs-prompt">$</span><span className="qs-cmd">git clone https://github.com/pruvnetwork/tickpruv &amp;&amp; cd tickpruv</span></div>
                 <div className="qs-divider"></div>
                 <div className="qs-line qs-comment"># run the test suite (real agave runtime)</div>
                 <div className="qs-line"><span className="qs-prompt">$</span><span className="qs-cmd">cargo test -p arena --release</span></div>
@@ -636,7 +636,7 @@ export default function HomePage() {
             <div className="social-pills">
               <div className="social-pill"><span className="material-symbols-outlined" style={{fontSize:'13px',color:'var(--g-indigo)'}}>balance</span>Apache-2.0</div>
               <div className="social-pill"><span className="material-symbols-outlined" style={{fontSize:'13px',color:'var(--g-blue)'}}>deployed_code</span>3 programs on devnet</div>
-              <a href="https://github.com/nzengi/tickpruv" target="_blank" rel="noopener" className="social-pill social-pill-link"><GithubIcon />GitHub</a>
+              <a href="https://github.com/pruvnetwork/tickpruv" target="_blank" rel="noopener" className="social-pill social-pill-link"><GithubIcon />GitHub</a>
               <a href="https://x.com/pruvfun" target="_blank" rel="noopener" className="social-pill social-pill-link"><XIcon />X</a>
             </div>
             <div style={{width:'40px',height:'1px',background:'var(--border)',margin:'4px 0'}}></div>
