@@ -76,3 +76,7 @@ Current numbers:
   native replay convicting the cheater, then honest settlement - 20
   transactions / ~47 s, the cheater's bond goes to the challenger and
   the pot still goes to whoever actually won the game
+
+## Credits
+
+Core protocol and distributed systems architecture by [@nzengi](https://github.com/nzengi).
